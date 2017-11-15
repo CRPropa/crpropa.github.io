@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+CRPropa is a publicly available code to study the propagation of ultra high energy nuclei up to iron on their voyage through an extra galactic environment. It takes into account: pion production, photodisintegration and energy losses by pair production of all relevant isotopes in the ambient low energy photon fields as well as nuclear decay. CRPropa can model the deflection in intergalactic magnetic fields, the propagation of secondary electromagnetic cascades and neutrinos for a multitude of scenarios for different source distributions and magnetic environments. It enables the user to predict the spectra of UHECR (and of their secondaries), their composition and arrival direction distribution.
 
-You can use the [editor on GitHub](https://github.com/CRPropa/crpropa.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CRPropa/crpropa.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This is the current version of CRPropa. It features a very flexible simulation setup, support for specialized extragalactic magnetic fields, galactic propagation and galactic lensing, python steering and shared-memory parallelization.
