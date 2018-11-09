@@ -9,18 +9,16 @@
 		}
 		tr {border: none;}
 		th {border: none;}
-		td {border: none;}
-	</style>
+		td {border: none; padding: 0px;}
 
+	</style>
+	<link type="text/css" rel="stylesheet" href="./zmi_css_defaults">
   </head>
   <body>
 	<h1>CRPropa3 - Overview</h1>
 
-	<p>CRPropa is a publicly available simulation framework to study the propagation of ultra-high-energy nuclei up to iron on their voyage through an (extra)galactic environment. It takes into account: pion production, photodisintegration and energy losses by pair production of all relevant isotopes in the ambient low-energy photon fields as well as nuclear decay. CRPropa can model the deflection in (inter)galactic magnetic fields, the propagation of secondary electromagnetic cascades and neutrinos for a multitude of scenarios for different source distributions and magnetic environments. It enables the user to predict the spectra of UHECR (and of their secondaries), their composition and arrival direction distribution. Additionally, the low-energy Galactic propagation can be simulated by solving the transport equation using stochastic differential equations.</p>
-
-	<p>This is the current version of CRPropa.
-
-	It features a very flexible simulation setup, support for specialized extragalactic magnetic fields, galactic propagation and galactic lensing, python steering and shared-memory parallelization.</p>
+	<p>CRPropa is a publicly available simulation framework to study the propagation of ultra-high-energy nuclei up to iron on their voyage through an (extra)galactic environment. It takes into account: pion production, photodisintegration and energy losses by pair production of all relevant isotopes in the ambient low-energy photon fields as well as nuclear decay. CRPropa can model the deflection in (inter)galactic magnetic fields, the propagation of secondary electromagnetic cascades and neutrinos for a multitude of scenarios for different source distributions and magnetic environments. It enables the user to predict the spectra of UHECR (and of their secondaries), their composition and arrival direction distribution. Additionally, the low-energy Galactic propagation can be simulated by solving the transport equation using stochastic differential equations.
+	CRPropa features a very flexible simulation setup with python steering and shared-memory parallelization.</p>
 
 	<h3>Try it out</h3>
 
@@ -31,7 +29,7 @@ Use the guest login and go to the CRPropa example via "VISPA Cluster" --&gt; "Op
 	<p> You can download the code from our <a
 	href="https://github.com/CRPropa/CRPropa3">github page</a>. Note that
 the major releases are infrequent and may not contain latest features and bug
-fixes found in the master branch of the repository.</p>
+fixes found in the master branch of the repository. Please consider using the master branch directly.</p>
 
 	<p>Installation instructions and user manuals are found on the <a href="https://github.com/CRPropa/CRPropa3/wiki">wiki page</a>.
 	To get started we suggest to look at the <a href="https://github.com/CRPropa/CRPropa3-notebooks#crpropa-3-notebooks">tutorials and examples</a>.
@@ -50,6 +48,9 @@ To receive announcements etc., please subscribe to our mailing list by sending a
 		<li> The galactic magnetic field lenses can be downloaded <a href="https://www.desy.de/~crpropa/data/magnetic_lenses/">here</a> and instruction on how to use them can be found on the <a href="https://github.com/CRPropa/CRPropa3-notebooks#crpropa-3-notebooks">examples</a> page.</li>
 		<li> The multi-resolution 'Dolag' extragalactic magnetic field, using <a href="https://forge.physik.rwth-aachen.de/public/quimby/setup.html">Quimby</a>, can be downloaded <a href="https://forge.physik.rwth-aachen.de/public/quimby/mhd/">here</a></li>
 		<li> The 'Miniati', 'Dolag' and 'Benchmark' extragalactic magnetic field models on regular grids are available <a href="https://www.desy.de/~crpropa/data/magnetic_fields/">here</a> and the corresponding large-scale structure density fields can be downloaded <a href="https://www.desy.de/~crpropa/data/mass_fields/">here</a>. Instructions on how to use them will be added to the <a href="https://github.com/CRPropa/CRPropa3-notebooks#crpropa-3-notebooks">examples</a> page soon.</li>
+		<li> Data for constrained models of the local Universe using
+			initial conditions from the <a href="https://arxiv.org/abs/1710.01353">CLUES project</a> can be downloaded <a href="https://desycloud.desy.de/index.php/s/gmzNybEKbk7iNQW?path=%2Fclues">here</a>. </li> 
+
 	</ul>
 
 	<h3>Publications based on CRPropa</h3>
@@ -91,6 +92,9 @@ To receive announcements etc., please subscribe to our mailing list by sending a
 
 		<tr><td>Dolag </td> <td><strong>JCAP 01 (2005) 009; <a href="https://arxiv.org/abs/astro-ph/0410419" rel="nofollow">arXiv:astro-ph/0410419</a></strong></td> </tr>
 		<tr><td>Miniati </td> <td><strong>Phys. Rev. D 70 (2004) 043007; <a href="https://arxiv.org/abs/astro-ph/0401084" rel="nofollow">arXiv:astro-ph/0401084</a></strong></td> </tr>
+
+		<tr><td>CLUES</td> <td><strong> Mon. Not. Roy. Astron. Soc. 475 (2018) 2519  <a href="https://arxiv.org/abs/1710.01353" rel="nofollow">arXiv:1710.01353 </a></strong></td> </tr>
+
 		<tr> <td> </td></tr>
 		<tr> <td colspan="2" style="text-align:left;"> <i>Photon Backgrounds</i></td> </tr>
 	<tr><td>	 Stecker16 </td> <td> <strong>Astrophys. J. 827 (2016) 6; <a href="https://arxiv.org/abs/1605.01382" rel="nofollow">arXiv:1605.01382</a></strong></td> </tr>
